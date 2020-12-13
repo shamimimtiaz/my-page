@@ -139,3 +139,57 @@ header nav ul li a {
 flex-basis: 50%;
 }
 
+  /*conatct me section*/
+  .contact-me{
+    max-width: 1300px;
+    background-color:white;
+    margin: 40px auto 20px auto;
+    line-height: 1.65;
+    padding: 20px 20px;
+    align-items: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  @media(min-width:900px){
+    .contact-me{
+        display: flex;
+        justify-content: space-between;
+      }
+  }
+
+  .contact-me-title{
+    background-color: white;
+    border-right: 10px solid rgb(17, 58, 105);
+    flex-basis: 27%;
+    text-align: right;
+  }
+  .phone-number{
+    background-color: white;
+    flex-basis: 17%;
+    text-align: center;
+    text-decoration:underline;
+     }
+  
+  .Email-address{
+    background-color: white;
+    flex-basis: 17%;
+    text-align: center;
+    text-decoration:underline;
+     }
+  
+  .LinkedIn{
+    background-color: white;
+    flex-basis: 17%;
+    text-align: center;
+    text-decoration:underline;
+     }
+  .Github-add{
+    background-color: white;
+    flex-basis: 17%;
+    text-align: center;
+    text-decoration:underline;
+     }
+
+     /*footer formatting*/
+     .foot{
+        text-align: center;  
+     }
