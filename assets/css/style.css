@@ -102,3 +102,40 @@ header nav ul li a {
 
    width: 90%;
     }
+ /*My work section*/
+ .my-work{
+  max-width: 1300px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: white;
+    margin: 40px auto 20px auto;
+  line-height: 1.65;
+  padding: 20px 20px;
+
+}
+
+@media (min-width: 900px) {
+    .my-work{
+  display: flex;
+  justify-content: space-between;}
+}
+.my-work-title{
+    background-color: white;
+    border-right: 10px solid rgb(17, 58, 105);
+    flex-basis: 27%;
+    text-align: right; 
+}
+.Horeison{
+    flex-basis: 34%;
+}
+
+.Horeison:hover {
+    flex-basis: 50%;
+}
+.run-buddy{
+    flex-basis: 34%;
+}
+
+.run-buddy:hover{
+flex-basis: 50%;
+}
+
