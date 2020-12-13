@@ -24,7 +24,7 @@ header a {
   color: #fffffef6;
 }
 
-@media (min-width:900px){
+@media (min-width:600px){
     header a {
         text-decoration: overline white;
         color: #fffffef6;
@@ -40,7 +40,7 @@ header nav ul {
     list-style: none;
 }
 
-@media (min-width:900px){
+@media (min-width:600px){
     header nav ul {
         display: flex;
         justify-content: space-between; 
