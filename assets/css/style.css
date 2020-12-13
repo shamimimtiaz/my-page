@@ -52,3 +52,53 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
   }
+ /*body photo with cool caption and name*/
+ .background-photo {
+  background-image: url('../images/pic1.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: normal;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.cool-header{
+  width: 100%;
+  text-align: right;
+  margin: 7.5%;
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.2;
+}
+/*About me section formatting and flexbox use with a responsive layout that adapts to different viewports*/
+.about-me{
+    max-width: 1300px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: white;
+      margin: 40px auto 20px auto;
+    line-height: 1.65;
+    padding: 20px 20px;
+    }
+  @media (min-width: 900px){
+      .about-me{
+          display: flex;
+          justify-content: space-between;
+          }
+  }
+.about-me-title{
+
+  border-right: 10px solid rgb(17, 58, 105);
+  flex-basis: 27%;
+  text-align: right;
+   }
+.description-about-me{
+  background-color: white;
+  flex-basis: 70%;
+   text-align: justify;
+}
+.mypic{
+
+   width: 90%;
+    }
