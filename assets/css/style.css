@@ -102,15 +102,22 @@ header nav ul li a {
 
    width: 90%;
     }
- /*My work section*/
+ 
+    /*My work section*/
  .my-work{
   max-width: 1300px;
   font-family: "Lucida Console", "Courier New", monospace;
   background-color: white;
-    margin: 40px auto 20px auto;
+  margin: 40px;
   line-height: 1.65;
-  padding: 20px 20px;
+  padding: 20px,20px,20px,20px;
+  display:flex;
+  justify-content: space-around;
 
+}
+.Horeison, .run-buddy, .screengenius, .my-work-title{
+  padding: 20px;
+  flex-basis: 27%;
 }
 
 @media (min-width: 575px) {
@@ -121,22 +128,9 @@ header nav ul li a {
 .my-work-title{
     background-color: white;
     border-right: 10px solid rgb(17, 58, 105);
-    flex-basis: 27%;
+    flex-basis: 29%;
     text-align: right; 
-}
-.Horeison{
-    flex-basis: 34%;
-}
-
-.Horeison:hover {
-    flex-basis: 50%;
-}
-.run-buddy{
-    flex-basis: 34%;
-}
-
-.run-buddy:hover{
-flex-basis: 50%;
+    padding-right: 20px;
 }
 
   /*conatct me section*/
