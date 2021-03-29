@@ -104,22 +104,29 @@ header nav ul li a {
  
     /*My work section*/
  .my-work{
-  
-  max-width: 1420px;
+  max-width: 2000px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: white;
+  margin: 40px;
+  line-height: 1.65;
+  padding: 20px,20px,20px,20px;
+  display:flex;
+  justify-content: space-around;
+  /* max-width: 1420px;
     background-color:white;
     margin: 40px auto 20px auto;
     line-height: 5.65;
     padding: 20px 20px;
     align-items: center;
     display:flex;
-  justify-content: space-around;
+  justify-content: space-around; */
 
 }
 .Horeison, .run-buddy, .screengenius, .envoy-products, .my-work-title{
   padding: 0px;
   flex-basis: 15%;
   flex-wrap: wrap;
-  /* height: 150px; */
+  height: 150px;
 }
 
 @media (min-width: 575px) {
